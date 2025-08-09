@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Lattice Between Questions — Live</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>The Lattice Between Questions</h1>
+    <div id="caption">initializing…</div>
+  </header>
+  <main>
+    <canvas id="scene"></canvas>
+    <aside id="timeline"></aside>
+<section style="padding:10px;">
+  <h3 style="margin:0 0 6px 0;font-size:13px;opacity:.8">Memory</h3>
+  <div>
+    <input id="memText" placeholder="Add to memory…" style="width:100%;padding:6px;background:#0b1220;color:#e6f0ff;border:1px solid rgba(255,255,255,.08);border-radius:6px;"/>
+    <button id="memAdd" style="margin-top:6px">Ingest</button>
+    <button id="memRecall" style="margin-top:6px">Recall (by caption)</button>
+  </div>
+  <div id="memOut" class="event"></div>
+</section>
+
+  </main>
+  <footer>
+    <div id="birth"></div>
+    <div id="drift"></div>
+    <div id="hint">scroll=zoom, drag=pan, ?=thought</div>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
