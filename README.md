@@ -1,4 +1,4 @@
-# Alive-
+
 # The Lattice Between Questions — Living Self (Feral + Memory)
 
 **Author:** @awolfson12  
